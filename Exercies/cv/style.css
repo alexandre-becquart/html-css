@@ -1,0 +1,124 @@
+/* général */
+
+body{
+    background-color: #DEA01E;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-color: #002767;
+    width: 50%;
+    min-width: 450px;
+    margin: auto ;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    
+}
+
+.photoCV{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: block;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+ 
+hr{
+    width: 85%;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+section h2{
+    border-left: 2px solid rgb(163, 11, 11);
+    padding-left: 15px;
+}
+section{
+    margin-left: 55px;
+    width: 70%;
+}
+
+section ul li {
+    padding: 2px;
+}
+
+ul{
+    list-style: circle;
+}
+
+/* Professionel */
+
+.prof{
+    margin-bottom: 50px;
+}
+.prof span{
+    font-weight: bold;
+}
+
+/* formation */
+
+.formation{
+    margin-bottom: 50px;
+}
+
+.formation span{
+    font-weight: bold;
+}
+
+/* hobbie */
+
+.hobbie{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.hobbie img{
+    margin-bottom: 0;
+}
+
+.photohobbies{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: inline-block;
+    
+}
+
+/* contact */
+
+h3{
+    text-align: center;
+    margin-left: 0;
+}
+.contact{
+    padding-bottom: 100px;
+}
+
+.contact p{
+    margin-bottom: 0px; 
+    line-height: 1.8;
+}
+
+.contact span{
+    color: red;
+}

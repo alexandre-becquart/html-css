@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display:grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 70px 1fr 100px;
+    grid-template-areas: "header header"
+                        "sidebar nav"
+                        "sidebar main"
+                        "footer footer"
+}
+.container > *{
+    padding: 20px 0 0 40px;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(103, 40, 114);
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(136, 29, 29);
+}
+aside{
+    grid-area: sidebar;
+    background-color: rgb(23, 102, 49);
+}
+main{
+    grid-area: main;
+    background-color: rgb(216, 235, 48);
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(28, 36, 156);
+}

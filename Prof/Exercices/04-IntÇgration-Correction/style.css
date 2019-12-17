@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(42, 42, 42);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(85, 83, 83);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(197, 197, 4);
+    transition:all .4s ease;
+}
+a:hover{
+    color: rgb(65, 65, 65);
+}
+
+div.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+header img{
+    border-radius: 50%;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+header li {
+    margin-right: 20px;
+}
+header li:last-of-type{
+    margin-right: 0;
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+section.cardSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 290px;
+    background-color: #fff;
+}
+.card div{
+    height: 300px;
+    min-height: 250px;
+    padding: 30px;
+    position: relative;
+}
+.card h1{
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+.card div button{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgb(197, 197, 4);
+    border:none;
+    transition: all .4s ease;
+    font-weight: 900;
+}
+.card div button:hover{
+    background-color: black;
+    box-shadow: -1px -1px 8px black;
+}
+
+.card div button:hover a{
+    color: rgb(197, 197, 4);
+}
+.card div button a{
+    color: black;
+    display: block;
+    padding: 5px 35px;
+}
+
+.infoSection{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+.infoSection div{
+    background-color: #fff;
+    padding: 30px;
+}
+.infoSection div h2{
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+.infoSection div > a{
+    display:block;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.linkSection{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px;
+}
+
+.linkSection h2{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.linkSection li{
+    /* margin-bottom: 5px; */
+    line-height: 1.4;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+footer p{
+    line-height: 1.8;
+}

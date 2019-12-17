@@ -1,0 +1,11 @@
+input{
+    margin-left: 10px;
+}
+
+input::placeholder{
+    color: red;
+}
+
+textarea{
+    resize: none;
+}

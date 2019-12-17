@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaires</title>
+</head>
+<body>
+    <form action="javascript:void(0);" method="post">
+        <div>
+            <label for="name">Nom:</label>
+            <input type="text" name="name" value="Tadam" id="name">
+            <input type="text" name="name" placeholder="Ajoutes ton nom mon enfant" id="name">
+        </div>
+        <div>
+            <label for="test">Test:</label>
+            <input type="number" required name="test" id="test">
+            <input type="color" name="test" id="test">
+            <input type="time" name="test" id="test">
+            <input type="date" name="test" id="test">
+            <input type="email" required name="test" id="test">
+            <input type="password" disabled name="test" id="test">
+        </div>
+        <div>
+            <label for="blabla">Blabla</label>
+            <input type="checkbox" name="blabla" id="blabla">
+
+            <label for="Bloblo">Bloblo</label>
+            <input type="checkbox" checked name="Bloblo" id="Bloblo">
+        </div>
+        <div>
+            <h1>Ton animal préféré :</h1>
+            <input type="radio" name="animal" id="chien" value="chien" checked>
+            <label for="chien">Chien</label>
+
+            <input type="radio" name="animal" id="chat" value="chat">
+            <label for="chat">Chat</label>
+
+            <input type="radio" name="animal" id="oiseau" value="oiseau">
+            <label for="oiseau">Oiseau</label>
+        </div>
+        <div>
+            <label for="text">Mes remarques sur le cours de Sébastien:</label>
+            <br>
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10" maxlength="10"></textarea>
+        </div>
+        <div>
+            <h1>Choisis tes couleurs favorites: </h1>
+            <select name="color" id="color">
+                <option value="default" selected disabled>Select one value</option>
+                <optgroup label="blue"> 
+                    <option value="cyan">Cyan</option>
+                    <option value="bluesky">Bleu ciel</option>
+                </optgroup>
+                <optgroup label="green"> 
+                    <option value="cacaoie">Caca d'oie</option>
+                    <option value="verdatre">Verdatre</option>
+                </optgroup>
+            </select>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">SUBMIT MOI</button>
+    </form>
+</body>
+</html>

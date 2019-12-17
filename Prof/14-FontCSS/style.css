@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "perso";
+    src: url("fonts/AlexBrush-Regular.ttf");
+}
+
+body{
+    /* font-family: perso, cursive; */
+}

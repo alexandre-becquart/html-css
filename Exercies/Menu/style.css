@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    background-color: #a1a1a1;
+}
+
+li{
+    margin-right: 10px;
+    
+}
+
+a{
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    
+}
+
+a:hover{
+    background-color: white;
+    color: #a1a1a1;
+    font-weight: bold;
+}
+
+.subMenu{
+    /* display: none; */
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    width: 200px;
+}
+
+.subMenu li{
+    margin-right: 0;
+}
+
+li:hover .subMenu{
+    display: flex;
+
+}
+
+.subSubMenu{
+    flex-direction: column;
+    width: 150px;
+    position: absolute;
+    padding: 0;
+    display: block;
+    right: -75%;
+    padding-left: 0;
+
+    
+    
+    
+}
+
+
+
+
+
+

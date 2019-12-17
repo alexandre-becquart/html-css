@@ -1,0 +1,21 @@
+.container{
+    width: 80%;
+    height: 350px;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4a5b3;
+}
+
+.box{
+    width: 150px;
+    background-color: red;
+    height: 150px;
+    margin: 10px;
+}
+
+.boxSmall{
+    height: 50px;
+}

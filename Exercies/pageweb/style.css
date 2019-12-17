@@ -1,0 +1,161 @@
+/*général*/
+
+body{
+    background-color: rgb(59, 52, 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(85, 83, 83)
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(226, 226, 19);
+}
+
+div.container{
+    width: 960px;
+    margin: auto;
+}
+
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+header nav ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+header li{
+    margin-left: 50px;
+}
+
+header a{
+    display: block;
+    padding: 25px;
+}
+
+
+/*Main*/
+
+main img{
+    margin-bottom: 30px;
+}
+
+/* section cards*/
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.cards div{
+    width: 290px;
+    height: 600px;
+}
+
+.col{
+    background-color: white;
+    margin: 0;
+    position: relative;
+
+}
+
+.col h2{
+    margin: 20px 40px ;
+}
+.col p{
+    margin: 40px;
+}
+
+.col button{
+    position: absolute;
+    background-color: yellow;
+    border: none;
+    text-transform: uppercase;
+    width: 210px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 0 40px 20px 40px;
+    height: 40px;
+}
+
+/*Partie 2 */
+
+.partie2{
+    
+    display: flex;
+}
+
+.partie2 div{
+    background-color: white;
+    height: 350px;
+}
+
+.partie2 h1{
+    margin: 40px ;
+}
+
+.partie2 p{
+    margin: 0 40px 20px 40px;
+}
+
+.partie img{
+    margin: 0;
+}
+
+/*Partie 3*/
+
+.partie3{
+    background-color: white;
+    display: flex;
+    padding: 40px 0 40px 0;
+    margin-bottom: 30px;
+}
+
+.info:nth-of-type(1){
+    margin-left: 40px;
+}
+
+.info{
+    margin-right: 40px;
+}
+
+.info ul {
+    padding: 0;
+}
+
+.info h1{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/*footer*/
+
+footer{
+    margin-bottom: 30px;
+}
+
+footer p{
+    margin: 0 0 0 3px;;
+}
+
+
+
